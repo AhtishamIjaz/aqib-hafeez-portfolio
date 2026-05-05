@@ -13,87 +13,59 @@ interface Certificate {
 const certificates: Certificate[] = [
   {
     id: 1,
-    title: "Machine Learning Specialization",
-    issuer: "DeepLearning.AI & Stanford University",
-    date: "Nov 23, 2024",
-    link: "https://coursera.org/verify/specialization/Z4T9846HY3CB"
+    title: "Certified Kubernetes Administrator (CKA)",
+    issuer: "KodeKloud",
+    date: "2024",
+    link: "https://kodekloud.com/"
   },
   {
     id: 2,
-    title: "Supervised Machine Learning: Regression and Classification",
-    issuer: "DeepLearning.AI & Stanford University",
-    date: "Oct 31, 2024",
-    link: "https://coursera.org/verify/SJRY6DVO3O79"
+    title: "Terraform Associate",
+    issuer: "KodeKloud",
+    date: "2024",
+    link: "https://kodekloud.com/"
   },
   {
     id: 3,
-    title: "Advanced Learning Algorithms",
-    issuer: "DeepLearning.AI & Stanford University",
-    date: "Nov 23, 2024",
-    link: "https://coursera.org/verify/U4R1H93WV6AR"
+    title: "AWS Certified Solutions Architect – Associate",
+    issuer: "Udemy",
+    date: "2024",
+    link: "https://www.udemy.com/"
   },
   {
     id: 4,
-    title: "Unsupervised Learning, Recommenders, Reinforcement Learning",
-    issuer: "DeepLearning.AI & Stanford University",
-    date: "Nov 10, 2024",
-    link: "https://coursera.org/verify/5HGZJYZISSU1"
+    title: "AWS Cloud Practitioner",
+    issuer: "AWS",
+    date: "2024",
+    link: "https://aws.amazon.com/certification/"
   },
   {
     id: 5,
-    title: "Responsible AI for Mental Health",
-    issuer: "Northeastern University",
-    date: "Oct 28, 2025",
-    link: "https://coursera.org/verify/WMI7P85ICOYN"
+    title: "GitHub Actions Certification",
+    issuer: "KodeKloud",
+    date: "2024",
+    link: "https://kodekloud.com/"
   },
   {
     id: 6,
-    title: "AI For Everyone",
-    issuer: "DeepLearning.AI",
-    date: "Jul 8, 2025",
-    link: "https://coursera.org/verify/YTE2CP152N76"
+    title: "Loki & Grafana Monitoring",
+    issuer: "KodeKloud",
+    date: "2024",
+    link: "https://kodekloud.com/"
   },
   {
     id: 7,
-    title: "Master Problem Solving and Critical Thinking",
-    issuer: "LearnKartS",
-    date: "Sep 13, 2025",
-    link: "https://coursera.org/verify/8PBPNY45GEZA"
+    title: "Docker",
+    issuer: "KodeKloud",
+    date: "2024",
+    link: "https://kodekloud.com/"
   },
   {
     id: 8,
-    title: "Effective Problem-Solving and Decision-Making",
-    issuer: "University of California, Irvine",
-    date: "Sep 12, 2025",
-    link: "https://coursera.org/verify/56VKYS1270B9"
-  },
-  {
-    id: 9,
-    title: "Introduction to Certified Professional Biller",
-    issuer: "AAPC",
-    date: "Jul 20, 2025",
-    link: "https://coursera.org/verify/4DWGGYLQ6EVC"
-  },
-  {
-    id: 10,
-    title: "Active Listening: Enhancing Communication Skills",
-    issuer: "Coursera",
-    date: "Nov 15, 2025",
-    link: "https://coursera.org/verify/L0OO3ZW22YPC"
-  },
-  {
-    id: 11,
-    title: "Tools and Techniques for Managing Stress",
-    issuer: "Starweaver",
-    date: "Nov 8, 2025",
-    link: "https://coursera.org/verify/DZBE2W09EPOT"
-  },
-  {
-    id: 12,
-    title: "Stress Management Techniques",
-    issuer: "LearnKartS",
-    date: "Nov 9, 2025",
-    link: "https://coursera.org/verify/UCUMQDLV1EFY"
+    title: "Mastering Linux",
+    issuer: "Udemy",
+    date: "2024",
+    link: "https://www.udemy.com/"
   }
 ];
 

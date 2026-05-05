@@ -3,7 +3,7 @@ import { ArrowRight, Download, Github, Linkedin, Mail, Instagram } from "lucide-
 import { motion } from "framer-motion";
 import { generatePDF } from "../services/pdfGenerator";
 
-import profileImage from "../assets/pfp.png";
+import profileImage from "../assets/aqib_pfp.jpeg";
 
 // REPLACEME: Upload your photo to a site like Imgur or GitHub and paste the direct link here.
 const PROFILE_IMAGE_URL = profileImage;
@@ -90,11 +90,11 @@ const Hero: React.FC = () => {
           >
             I'm{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-accent">
-              Abdul Qahir Jalali
+              Aqib Hafeez
             </span>
             <br />
             <span className="relative inline-block mt-2">
-              AI Engineer
+              DevOps/DevSecOps Engineer
               <svg
                 className="absolute w-full h-2 sm:h-3 -bottom-1 left-0 text-primary opacity-50"
                 viewBox="0 0 200 9"
@@ -117,8 +117,8 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-base sm:text-lg md:text-lg lg:text-xl text-slate-600 max-w-lg leading-relaxed"
           >
-            Building scalable AI solutions that solve real-world problems using
-            cutting-edge technologies.
+            Designing and managing scalable CI/CD pipelines, containerization, and 
+            secure cloud infrastructure to optimize deployment processes.
           </motion.p>
 
           <motion.div
@@ -152,36 +152,27 @@ const Hero: React.FC = () => {
             className="flex gap-3 sm:gap-6 pt-6 sm:pt-8 flex-wrap"
           >
              <SocialLink
-               href={isMobile ? "mailto:abdulqahir421@gmail.com" : "https://mail.google.com/mail/?view=cm&fs=1&to=abdulqahir421@gmail.com"}
+               href={isMobile ? "mailto:aqibhafeez422@gmail.com" : "https://mail.google.com/mail/?view=cm&fs=1&to=aqibhafeez422@gmail.com"}
                icon={<Mail className="w-5 h-5" />}
                isMobile={isMobile}
              />
              <SocialLink
-               href={isMobile ? "whatsapp://send?phone=923408198770" : "https://wa.me/923408198770"}
+               href={isMobile ? "whatsapp://send?phone=923499476288" : "https://wa.me/923499476288"}
                icon={<WhatsAppIcon className="w-5 h-5" />}
                isMobile={isMobile}
              />
              <div className="w-px h-8 bg-slate-300 mx-2 hidden sm:block"></div>
              <SocialLink
-               href="https://github.com/Abdul-Qahir-Jalali"
+               href="https://github.com/aqib-hafeez"
                icon={<Github className="w-5 h-5" />}
                isMobile={isMobile}
              />
              <SocialLink
-               href="https://www.linkedin.com/in/abdul-qahir-jalali"
+               href="https://www.linkedin.com/in/aqib-hafeez"
                icon={<Linkedin className="w-5 h-5" />}
                isMobile={isMobile}
              />
-             <SocialLink
-               href={isMobile ? "twitter://user?screen_name=_Qahir_" : "https://x.com/_Qahir_"}
-               icon={<XIcon className="w-4 h-4" />}
-               isMobile={isMobile}
-             />
-             <SocialLink
-               href={isMobile ? "instagram://user?username=abdul_qahir_00" : "https://www.instagram.com/abdul_qahir_00?igsh=MWFoMjJsMGxraG56NQ=="}
-               icon={<Instagram className="w-5 h-5" />}
-               isMobile={isMobile}
-             />
+
           </motion.div>
         </div>
 
@@ -196,7 +187,7 @@ const Hero: React.FC = () => {
 
               <img
                 src={PROFILE_IMAGE_URL}
-                alt="Abdul Qahir Jalali"
+                alt="Aqib Hafeez"
                 className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
                 onError={(e) => {
                   e.currentTarget.src =
@@ -217,12 +208,12 @@ const Hero: React.FC = () => {
 
 
 const WORDS = [
-  "Agentic AI & GenAI",
-  "Deep Learning & NLP",
-  "Computer Vision",
-  "MLOps & Deployment",
-  "Cloud Computing (AWS)",
-  "Databases & Data Science"
+  "CI/CD Pipelines",
+  "Docker & Kubernetes",
+  "Terraform (IaC)",
+  "AWS & Azure Cloud",
+  "DevSecOps & Security",
+  "Monitoring & Logging"
 ];
 
 const TypewriterTag: React.FC = () => {

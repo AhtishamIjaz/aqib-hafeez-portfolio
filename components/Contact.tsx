@@ -41,7 +41,7 @@ const Contact: React.FC = () => {
   const handleCopyEmail = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
-    navigator.clipboard.writeText("abdulqahir421@gmail.com");
+    navigator.clipboard.writeText("aqibhafeez422@gmail.com");
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -57,8 +57,8 @@ const Contact: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const { name, email, subject, message } = formData;
-    const myEmail = "abdulqahir421@gmail.com";
-    const emailBody = `Hi Abdul,
+    const myEmail = "aqibhafeez422@gmail.com";
+    const emailBody = `Hi Aqib,
     
 My name is ${name} (${email}).
 
@@ -86,7 +86,7 @@ ${name}`;
         <div className="text-center mb-10 md:mb-12">
           <h2 className="text-3xl md:text-5xl font-bold mb-6 text-slate-900">Let's <span className="text-primary">Collaborate</span></h2>
           <p className="text-slate-600 text-base md:text-lg max-w-2xl mx-auto">
-            Have a project in mind or want to discuss the latest in AI? I'm always open to new opportunities and interesting conversations.
+            Have a project in mind or want to discuss the latest in DevOps and Automation? I'm always open to new opportunities and interesting conversations.
           </p>
         </div>
 
@@ -114,7 +114,7 @@ ${name}`;
                   </div>
                   
                   <a 
-                    href={isMobile ? "mailto:abdulqahir421@gmail.com" : "https://mail.google.com/mail/?view=cm&fs=1&to=abdulqahir421@gmail.com"}
+                    href={isMobile ? "mailto:aqibhafeez422@gmail.com" : "https://mail.google.com/mail/?view=cm&fs=1&to=aqibhafeez422@gmail.com"}
                     target={isMobile ? "_self" : "_blank"}
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-slate-900 text-white font-medium hover:bg-primary transition-colors w-full sm:w-auto justify-center text-sm sm:text-base"
@@ -136,7 +136,7 @@ ${name}`;
                   <p className="text-slate-500 text-sm mb-3">Instant messaging & calls</p>
                   
                   <a 
-                    href={isMobile ? "whatsapp://send?phone=923408198770" : "https://wa.me/923408198770"}
+                    href={isMobile ? "whatsapp://send?phone=923499476288" : "https://wa.me/923499476288"}
                     target={isMobile ? "_self" : "_blank"}
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-[#25D366] text-white font-medium hover:bg-[#128C7E] transition-colors w-full sm:w-auto justify-center text-sm sm:text-base"
@@ -219,27 +219,14 @@ ${name}`;
         <div className="flex flex-col items-center gap-6 md:gap-8 border-t border-slate-200 pt-8 md:pt-12">
             <div className="flex items-center gap-3 px-5 py-2.5 rounded-full bg-white border border-slate-200 shadow-sm text-sm sm:text-base">
                 <MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-primary" />
-                <span className="text-slate-700 font-medium">Azad Jammu and Kashmir, Pakistan</span>
+                <span className="text-slate-700 font-medium">Islamabad, Pakistan</span>
             </div>
 
             <div className="text-center">
                 <h3 className="text-lg font-bold text-slate-900 mb-4">Connect on Social</h3>
                 <div className="flex gap-3 flex-wrap justify-center">
-                    <SocialIcon href="https://www.linkedin.com/in/abdul-qahir-jalali" icon={<Linkedin className="w-5 h-5" />} label="LinkedIn" isMobile={isMobile} />
-                    <SocialIcon href="https://github.com/Abdul-Qahir-Jalali" icon={<Github className="w-5 h-5" />} label="GitHub" isMobile={isMobile} />
-                    <SocialIcon 
-                      href={isMobile ? "twitter://user?screen_name=_Qahir_" : "https://x.com/_Qahir_"} 
-                      icon={<XIcon className="w-4 h-4" />} 
-                      label="X" 
-                      isMobile={isMobile}
-                    />
-                    <SocialIcon 
-                      href={isMobile ? "instagram://user?username=abdul_qahir_00" : "https://www.instagram.com/abdul_qahir_00?igsh=MWFoMjJsMGxraG56NQ=="} 
-                      icon={<Instagram className="w-5 h-5" />} 
-                      label="Instagram" 
-                      isMobile={isMobile}
-                    />
-                    <SocialIcon href="https://www.facebook.com/share/1E1b2oFrom/" icon={<Facebook className="w-5 h-5" />} label="Facebook" isMobile={isMobile} />
+                    <SocialIcon href="https://www.linkedin.com/in/aqib-hafeez" icon={<Linkedin className="w-5 h-5" />} label="LinkedIn" isMobile={isMobile} />
+                    <SocialIcon href="https://github.com/aqib-hafeez" icon={<Github className="w-5 h-5" />} label="GitHub" isMobile={isMobile} />
                 </div>
             </div>
         </div>

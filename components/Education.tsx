@@ -34,28 +34,25 @@ const Education: React.FC = () => {
                   
                   <h4 className="text-base md:text-lg text-secondary font-medium mb-4">
                     <a 
-                      href="https://uajk.edu.pk/" 
+                      href="https://abasynisb.edu.pk/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="hover:underline hover:text-primary transition-colors"
                     >
-                      University of Azad Jammu and Kashmir (UAJK), Muzaffarabad
+                      Abasyn University, Islamabad
                     </a>
                   </h4>
                   
                   <div className="flex flex-wrap gap-3 md:gap-4 mb-6">
                     <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 border border-slate-200 text-xs sm:text-sm font-medium text-slate-700">
                       <Calendar className="w-3 h-3 sm:w-4 sm:h-4 text-slate-500" />
-                      <span>Nov 2021 - Nov 2025</span>
+                      <span>Jan 2021 - Dec 2024</span>
                     </div>
-                    <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-accent/5 border border-accent/20 text-xs sm:text-sm font-medium text-slate-700">
-                      <Award className="w-3 h-3 sm:w-4 sm:h-4 text-accent" />
-                      <span>CGPA: 3.50 / 4.00</span>
-                    </div>
+
                   </div>
                   
                   <p className="text-slate-600 leading-relaxed text-sm sm:text-base">
-                    Completed a comprehensive Bachelor of Science degree in Computer Science. The curriculum provided a deep understanding of core computing concepts, software development lifecycles, and advanced algorithms, laying the groundwork for specialization in Artificial Intelligence and Machine Learning.
+                    Focused on core computer science fundamentals, including software engineering, networking, and cloud computing principles, which built the foundation for a career in DevOps and infrastructure management.
                   </p>
                 </div>
               </div>

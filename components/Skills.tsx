@@ -15,60 +15,47 @@ const TFIcon = () => <span className="font-mono font-bold text-orange-500">TF</s
 const TSIcon = () => <span className="font-mono font-bold text-blue-500">TS</span>;
 
 const skills: Skill[] = [
-  // Agentic AI & Systems
-  { name: 'LangGraph & LangChain', level: 95, category: 'Agentic AI & Systems', icon: <Workflow className="text-blue-600" /> },
-  { name: 'CrewAI & Multi-Agent', level: 90, category: 'Agentic AI & Systems', icon: <Users className="text-green-600" /> },
-  { name: 'RAG Architecture', level: 95, category: 'Agentic AI & Systems', icon: <Database className="text-cyan-600" /> },
-  { name: 'Pydantic AI', level: 88, category: 'Agentic AI & Systems', icon: <ShieldCheck className="text-purple-600" /> },
-  { name: 'MCP Servers', level: 88, category: 'Agentic AI & Systems', icon: <Server className="text-pink-600" /> },
-  { name: 'LangSmith', level: 85, category: 'Agentic AI & Systems', icon: <Activity className="text-pink-600" /> },
-  { name: 'Human-in-the-Loop', level: 90, category: 'Agentic AI & Systems', icon: <UserCheck className="text-emerald-600" /> },
+  // Infrastructure as Code & Containers
+  { name: 'Terraform (IaC)', level: 95, category: 'Infrastructure & Containers', icon: <Boxes className="text-purple-600" /> },
+  { name: 'Docker', level: 92, category: 'Infrastructure & Containers', icon: <Boxes className="text-blue-500" /> },
+  { name: 'Kubernetes (EKS/AKS)', level: 85, category: 'Infrastructure & Containers', icon: <Activity className="text-indigo-600" /> },
+  { name: 'Docker Compose', level: 90, category: 'Infrastructure & Containers', icon: <Layers className="text-cyan-600" /> },
+  { name: 'Helm Charts', level: 80, category: 'Infrastructure & Containers', icon: <Settings className="text-blue-400" /> },
 
-  // AI & Machine Learning
-  { name: 'Generative AI', level: 95, category: 'AI & Machine Learning', icon: <Sparkles className="text-purple-500" /> },
-  { name: 'Machine Learning', level: 95, category: 'AI & Machine Learning', icon: <Cpu className="text-blue-500" /> },
-  { name: 'LlamaIndex', level: 90, category: 'AI & Machine Learning', icon: <Link className="text-orange-500" /> },
-  { name: 'Deep Learning', level: 92, category: 'AI & Machine Learning', icon: <Brain className="text-pink-500" /> },
-  { name: 'NLP & LLMs', level: 94, category: 'AI & Machine Learning', icon: <MessageSquareText className="text-indigo-500" /> },
-  { name: 'Computer Vision', level: 88, category: 'AI & Machine Learning', icon: <Monitor className="text-emerald-500" /> },
-  { name: 'TF & PyTorch', level: 92, category: 'AI & Machine Learning', icon: <TFIcon /> },
-  { name: 'Scikit-learn & Keras', level: 90, category: 'AI & Machine Learning', icon: <Cpu className="text-orange-500" /> },
-  { name: 'OpenCV & MediaPipe', level: 85, category: 'AI & Machine Learning', icon: <Layout className="text-blue-500" /> },
-  
+  // CI/CD & DevOps Tools
+  { name: 'GitHub Actions', level: 95, category: 'CI/CD & Automation', icon: <Workflow className="text-green-600" /> },
+  { name: 'Azure DevOps', level: 88, category: 'CI/CD & Automation', icon: <Cloud className="text-blue-600" /> },
+  { name: 'Jenkins', level: 82, category: 'CI/CD & Automation', icon: <Settings className="text-red-500" /> },
+  { name: 'Git & GitHub', level: 94, category: 'CI/CD & Automation', icon: <Github className="text-slate-800" /> },
+  { name: 'Automation Workflows', level: 90, category: 'CI/CD & Automation', icon: <Activity className="text-emerald-600" /> },
 
+  // Cloud Infrastructure (AWS)
+  { name: 'AWS EC2 & VPC', level: 92, category: 'AWS Cloud Services', icon: <Cloud className="text-orange-500" /> },
+  { name: 'AWS S3 & Lambda', level: 88, category: 'AWS Cloud Services', icon: <Cloud className="text-orange-400" /> },
+  { name: 'AWS EKS & RDS', level: 85, category: 'AWS Cloud Services', icon: <Database className="text-blue-600" /> },
+  { name: 'Route53 & ACM', level: 90, category: 'AWS Cloud Services', icon: <Globe className="text-indigo-500" /> },
+  { name: 'IAM & Secrets Manager', level: 92, category: 'AWS Cloud Services', icon: <ShieldCheck className="text-purple-600" /> },
 
-  // Data & Databases
-  { name: 'Data Science', level: 96, category: 'Data & Databases', icon: <BarChart className="text-blue-600" /> },
-  { name: 'SQL', level: 85, category: 'Data & Databases', icon: <Database className="text-slate-600" /> },
-  { name: 'PostgreSQL & MySQL', level: 88, category: 'Data & Databases', icon: <Database className="text-blue-600" /> },
-  { name: 'Redis & SQLite', level: 85, category: 'Data & Databases', icon: <Layers className="text-red-500" /> },
-  { name: 'Data Visualization', level: 92, category: 'Data & Databases', icon: <PieChart className="text-purple-600" /> },
-  { name: 'Pandas & NumPy', level: 98, category: 'Data & Databases', icon: <TableProperties className="text-cyan-600" /> },
-  { name: 'Vector DBs (Chroma/FAISS)', level: 92, category: 'Data & Databases', icon: <Search className="text-indigo-500" /> },
+  // Azure Cloud Services
+  { name: 'Azure VMs', level: 85, category: 'Azure Cloud Services', icon: <Monitor className="text-blue-500" /> },
+  { name: 'Azure Blob Storage', level: 88, category: 'Azure Cloud Services', icon: <HardDrive className="text-blue-400" /> },
+  { name: 'Azure SQL Database', level: 82, category: 'Azure Cloud Services', icon: <Database className="text-blue-600" /> },
+  { name: 'Azure Container Instances', level: 85, category: 'Azure Cloud Services', icon: <Boxes className="text-sky-500" /> },
+  { name: 'Azure Key Vault', level: 90, category: 'Azure Cloud Services', icon: <ShieldCheck className="text-teal-600" /> },
 
-  // Web & Backend
-  { name: 'TypeScript & JS', level: 88, category: 'Web & Backend', icon: <TSIcon /> },
-  { name: 'React', level: 85, category: 'Web & Backend', icon: <FileCode className="text-sky-400" /> },
-  { name: 'FastAPI & Flask', level: 90, category: 'Web & Backend', icon: <Server className="text-emerald-500" /> },
-  { name: 'Node.js & Express', level: 85, category: 'Web & Backend', icon: <Globe className="text-green-500" /> },
-  { name: 'HTML & CSS', level: 90, category: 'Web & Backend', icon: <Layout className="text-orange-600" /> },
-  { name: 'REST APIs & WebSockets', level: 92, category: 'Web & Backend', icon: <Link className="text-indigo-500" /> },
+  // DevSecOps & Security
+  { name: 'HashiCorp Vault', level: 88, category: 'DevSecOps & Security', icon: <ShieldCheck className="text-purple-600" /> },
+  { name: 'SonarQube (SAST)', level: 85, category: 'DevSecOps & Security', icon: <Search className="text-blue-500" /> },
+  { name: 'Trivy (Vulnerability Scanning)', level: 88, category: 'DevSecOps & Security', icon: <Activity className="text-red-500" /> },
+  { name: 'GitLeaks (Secrets Detection)', level: 90, category: 'DevSecOps & Security', icon: <Search className="text-orange-500" /> },
+  { name: 'Host Hardening (Lynis)', level: 82, category: 'DevSecOps & Security', icon: <ShieldCheck className="text-emerald-600" /> },
 
-  // Cloud & DevOps
-  { name: 'Amazon AWS', level: 85, category: 'Cloud & DevOps', icon: <Cloud className="text-orange-500" /> },
-  { name: 'Docker', level: 88, category: 'Cloud & DevOps', icon: <Boxes className="text-blue-500" /> },
-  { name: 'Kubernetes', level: 80, category: 'Cloud & DevOps', icon: <Activity className="text-indigo-600" /> },
-  { name: 'CI/CD Pipelines', level: 85, category: 'Cloud & DevOps', icon: <Settings className="text-slate-600" /> },
-  { name: 'MLOps', level: 88, category: 'Cloud & DevOps', icon: <Workflow className="text-green-500" /> },
-
-  // Programming & Tools
-  { name: 'Python', level: 99, category: 'Programming & Tools', icon: <PythonIcon /> },
-  { name: 'C++ & Java', level: 85, category: 'Programming & Tools', icon: <Code2 className="text-blue-700" /> },
-  { name: 'Git & GitHub', level: 92, category: 'Programming & Tools', icon: <Github className="text-slate-800" /> },
-  { name: 'VS Code & Cursor', level: 95, category: 'Programming & Tools', icon: <Laptop className="text-blue-500" /> },
-  { name: 'Jupyter & Hugging Face', level: 90, category: 'Programming & Tools', icon: <Bot className="text-yellow-500" /> },
-  { name: 'Kaggle & Colab', level: 96, category: 'Programming & Tools', icon: <FileJson className="text-orange-500" /> },
-
+  // Monitoring & Networking
+  { name: 'Prometheus & Grafana', level: 90, category: 'Monitoring & Networking', icon: <BarChart className="text-orange-500" /> },
+  { name: 'Loki & ELK Stack', level: 85, category: 'Monitoring & Networking', icon: <Activity className="text-green-500" /> },
+  { name: 'DNS & Firewalls', level: 88, category: 'Monitoring & Networking', icon: <Globe className="text-blue-600" /> },
+  { name: 'Load Balancing (ALB/NGINX)', level: 92, category: 'Monitoring & Networking', icon: <Activity className="text-cyan-500" /> },
+  { name: 'Bash Scripting', level: 95, category: 'Monitoring & Networking', icon: <Terminal className="text-slate-700" /> },
 ];
 
 

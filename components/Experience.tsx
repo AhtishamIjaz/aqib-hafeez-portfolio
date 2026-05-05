@@ -5,59 +5,32 @@ import { Briefcase, Calendar, ExternalLink, MapPin } from 'lucide-react';
 
 const experiences: ExperienceItem[] = [
   {
-    id: 2,
-    role: "Junior AI Engineer",
-    company: "Metropolitan Solutions (Pvt) Limited",
-    companyUrl: "https://www.gomwd.com",
-    period: "Dec 2025 - Present",
-    workMode: "Onsite",
-    description: [
-      "Architected and deployed autonomous AI agent chatbots, utilizing LangGraph and MCP servers, directly onto the company’s production servers to automate complex workflows.",
-      "Engineered end-to-end MLOps pipelines to automate training, deployment, and monitoring of AI models.",
-      "Integrated custom Deep Learning models and advanced AI solutions into the existing software architecture to significantly enhance operational efficiency",
-      "Orchestrated full lifecycle of AI applications, from initial data preparation through to final production deployment."
-    ]
-  },
-    {
-    id: 3,
-    role: "AI Engineer & Ambassador",
-    company: "eMental Health International Collaborative (EMHIC)",
-    companyUrl: "https://emhicglobal.com/",
-    period: "Jan 2026 - Present",
-    workMode: "Remote",
-    description: [
-      "Contributing technical AI expertise to foster global best practices and innovation in digital mental health.",
-      "Supporting international collaboration and knowledge exchange to ensure digitally enabled support systems.",
-      "Advocating for a future where all populations have access to safe and effective digitally enabled mental health support."
-    ]
-  },
-
-  {
     id: 1,
-    role: "AI & ML Intern",
-    company: "ITSOLERA Pvt. Ltd.",
-    companyUrl: "https://www.itsolera.com",
-    period: "June 2025 - Aug 2025",
+    role: "Junior DevOps Engineer",
+    company: "Quiddity Pakistan",
+    companyUrl: "https://www.quiddity.com.pk/",
+    period: "January 2025 – Present",
     workMode: "Onsite",
     description: [
-      "Built AI systems to detect fake/bot profiles on social media.",
-      "Automated construction progress tracking with ML models.",
-      "Created risk scoring algorithms for agricultural disaster zones.",
-      "Collaborated on diverse AI projects with rapid technical adaptability."
+      "Designed and deployed production AWS infrastructure (VPC, EC2, EKS, MSK, ALB, Route53) using Terraform reducing manual provisioning time.",
+      "Developed end-to-end CI/CD pipelines with GitHub Actions, Docker, and HashiCorp Vault automating deployments and enforcing secrets management.",
+      "Containerized applications using Docker and configured NGINX as a reverse proxy and load balancer, improving resilience and scalability.",
+      "Implemented monitoring with Prometheus, Loki, and Grafana dashboards for production workloads.",
+      "Managed DNS (BIND), firewall rules, and security policies for production environments."
     ]
-  }
-  ,
+  },
   {
-    id: 4,
-    role: "AI & MLIntern",
-    company: "DevelopersHub Corporation",
-    companyUrl: "https://www.linkedin.com/company/developershub-corporation/",
-    period: "June 2024 - Aug 2024",
-    workMode: "Remote",
+    id: 2,
+    role: "Junior DevOps Engineer",
+    company: "Software Development Hub",
+    companyUrl: "https://www.linkedin.com/company/software-development-hub/",
+    period: "June 2024 – December 2024",
+    workMode: "Remote/Hybrid",
     description: [
-      "Completed a 3-month remote internship focused on the practical application of Machine Learning and Deep Learning techniques.",
-      "Gained hands-on experience in data preprocessing, training predictive models using supervised and unsupervised algorithms, and implementing neural network architectures.",
-      "Successfully translated theoretical AI concepts into functional models, with a strong focus on hyperparameter tuning, model evaluation, and performance optimization."
+      "Deployed a large-scale monolithic PHP application on Apache servers, managing server configuration and virtual hosts across staging and production.",
+      "Provisioned and managed AWS infrastructure including EC2 instances, Application Load Balancer (ALB), Security Groups, and IAM roles.",
+      "Built and maintained GitHub Actions CI/CD pipelines to automate build and deployment workflows, accelerating release cycles.",
+      "Ensured secure and highly available hosting for production workloads through optimized security policies and load balancing."
     ]
   }
 ];

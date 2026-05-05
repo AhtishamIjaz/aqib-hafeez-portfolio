@@ -26,24 +26,22 @@ const About: React.FC = () => {
             <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 text-slate-900 leading-tight">
               Solving Real-World Problems with{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">
-                Cutting-Edge AI
+                Scalable Infrastructure & Automation
               </span>
             </h3>
 
             {/* Intro text */}
-            <p className="text-slate-600 text-base leading-relaxed mb-10">
-              I am an AI Engineer and BSCS graduate focused on building practical, efficient solutions that deliver tangible value. I thrive on solving real-world problems by applying a robust, end-to-end technical stack.
-            </p>
+              I am a DevOps Engineer with over 1.5 years of experience in designing and managing robust CI/CD pipelines, containerization, and cloud infrastructure. I focus on optimizing deployment processes and building efficient, secure cloud environments.
 
             {/* Stats section (mt-auto removed, space controlled by mb-10 on the paragraph above) */}
             <div className="flex gap-12">
               <div>
-                <span className="block text-4xl font-bold text-slate-900 mb-1">1+</span>
+                <span className="block text-4xl font-bold text-slate-900 mb-1">1.5+</span>
                 <span className="text-sm font-medium text-slate-500">Years Experience</span>
               </div>
               <div>
-                <span className="block text-4xl font-bold text-slate-900 mb-1">30+</span>
-                <span className="text-sm font-medium text-slate-500">Projects Completed</span>
+                <span className="block text-4xl font-bold text-slate-900 mb-1">10+</span>
+                <span className="text-sm font-medium text-slate-500">Projects Managed</span>
               </div>
             </div>
           </motion.div>
@@ -64,7 +62,7 @@ const About: React.FC = () => {
                   <Server className="w-6 h-6 text-secondary" /> My Expertise
                 </strong>
                 <p className="leading-relaxed text-slate-600 text-sm sm:text-base">
-                  I specialize in core artificial intelligence (GenAI, Deep Learning, ML, NLP, and Computer Vision). To bring these models to production, I architect and deploy complex systems utilizing Agentic AI, Data Science, Data Analytics, MLOps, and Cloud Computing (AWS).
+                  I specialize in Infrastructure as Code (Terraform), Containerization (Docker, Kubernetes), and CI/CD automation. I have extensive experience with AWS and Azure cloud platforms, ensuring highly available and secure production environments.
                 </p>
               </div>
             </div>
@@ -77,7 +75,7 @@ const About: React.FC = () => {
                   <Brain className="w-6 h-6 text-accent" /> My Passion
                 </strong>
                 <p className="leading-relaxed text-slate-600 text-sm sm:text-base">
-                  While my technical toolkit is industry-agnostic, I am deeply passionate about mental wellness technology. I actively focus on engineering preventative tools, digital therapeutics, and intelligent applications designed to help users overcome mental challenges and build stronger daily habits.
+                  I am passionate about automation and system reliability. I enjoy building efficient, secure cloud environments and optimizing deployment processes to accelerate release cycles while maintaining high code quality and security standards through DevSecOps.
                 </p>
               </div>
             </div>

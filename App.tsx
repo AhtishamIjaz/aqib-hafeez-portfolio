@@ -30,7 +30,7 @@ const App: React.FC = () => {
   }
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/aqib-hafeez-portfolio'>
       <div className="min-h-screen bg-slate-50 text-slate-900 selection:bg-primary/20 selection:text-primary overflow-x-hidden">
         <div className="fixed inset-0 z-[-1] overflow-hidden pointer-events-none">
           <div className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-primary/10 rounded-full blur-[100px] animate-blob mix-blend-multiply"></div>
